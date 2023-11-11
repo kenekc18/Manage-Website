@@ -12,6 +12,11 @@ h1,h2,h3,h4{
     font-weight: 700;
 }
 
+p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
 nav{
    padding:25px 0; 
 }
@@ -51,11 +56,10 @@ main{
 
 .hero-content{
     width:50%;
-    font-size: 1.4rem;
     height: 100%;
     position: relative;
     left:-5%;
-    padding-right:7rem;
+    padding-right:5rem;
 }
 
 .hero-img{
@@ -63,12 +67,12 @@ main{
 }
 
 .hero-title{
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding-bottom: 15px;
 }
 
 .hero-txt{
-    font-weight: 400;
+    font-weight: 300;
     color:hsl(228, 39%, 23%);
     font-size: 18px !important;
     padding-right: 8rem;
@@ -83,6 +87,92 @@ main{
     text-decoration: none;
     color:#fff;
 }
+
+.big-txt{
+    padding-right:6rem;
+    width:47%;
+}
+
+.txt-title{
+    font-size: 2.3rem;
+}
+
+.txt-text{
+    /* padding-right: 4rem; */
+    margin-right: 1rem;
+}
+
+.round-circle{
+    padding:0 20px;
+    margin: 0px 20px;
+    background:  hsl(12, 88%, 59%);
+    border-radius:20px;
+    height:30px;
+    color:#fff;
+}
+
+.list-txtarea{
+    width:50%;
+    padding-left:4rem;
+}
+
+.list-section{
+    display:flex;
+}
+
+.profile-container{
+    position: relative;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.profile{
+    position:relative;
+    z-index:1;
+}
+
+.arrow-back{
+    width:55px;
+    position:absolute;
+    z-index: 2;
+    left:1%;
+    bottom: 38%;
+}
+
+.arrow-forward{
+    width:55px;
+    left:95%;
+    position:absolute;
+    z-index: 2;
+    bottom: 38%;
+
+}
+
+.profile-pic{
+    margin:0 auto;
+    position: absolute;
+    z-index:3;
+    bottom: 79%;
+    left: 36%;
+    width:100px
+}
+
+
+.txt-info{
+    background: hsl(0, 5%, 85%);
+    height: 200px;
+    width:400px;
+    margin:0 17px;
+    padding:0 32px; 
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding-top:57px;
+}
+
+/* .testimonials-area{
+    display:flex;
+} */
 
 @media(max-width:500px){
     main{
@@ -106,10 +196,56 @@ main{
     }
 
     .hero-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .hero-txt{
         padding-right: 0;
+    }
+
+    .txt-title{
+        font-size: 1.8rem;
+    }
+
+    .big-txt{
+        width:100%;
+        padding:20px 30px;
+        text-align: center;
+    }
+
+    .list-txtarea{
+        width:100%;
+        padding:0;
+        text-align:center;
+    }
+
+    .round-circle{
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .list-txt{
+        text-align: start;
+        margin-right: -28px;
+        position: relative;
+        right: 10%;
+    }
+
+    .list-title{
+        background: hsl(13, 100%, 96%);
+        font-size: 1rem;
+    }
+
+    .txt-text{
+        padding: 0;
+        margin:0;
+    }
+
+    .profile{
+        display: none;
+    }
+
+    .arrow-back, .arrow-forward{
+        display: none;
     }
 }
