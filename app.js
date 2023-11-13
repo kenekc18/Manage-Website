@@ -1,6 +1,6 @@
-let mobi_nav = document.querySelector("#mobi-nav");
+let mobi_nav = document.querySelector("#mobile-navi");
 let close_nav = document.querySelector(".close");
-let harmburger = document.querySelector(".harmburger");
+let harmburger = document.querySelector(".hamburger");
 
 harmburger.addEventListener('click', ()=>{
     close_nav.style.display = "block";
