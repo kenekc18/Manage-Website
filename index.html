@@ -14,7 +14,7 @@
 
   <main>
     <header>
-      <nav class="container d-flex align-items-center justify-content-between">
+      <nav class="container desk-nav d-flex align-items-center justify-content-between">
         <img src="./images/logo.svg" alt="logo" class="nav-logo">
         <div class="navi-bar">
           <ul class="d-none d-sm-flex">
@@ -38,6 +38,35 @@
         <button class="btn nav-btn"><a href="">Get Started</a></button>
       </nav>
     </header>
+
+    <nav class="mobile-nav d-lg-none">
+      <div class="container mobile">
+        <div class="hamburger-icons d-flex justify-content-between">
+          <img src="./images/logo.svg" alt="logo" class="nav-logo">
+          <img src="./images/icon-hamburger.svg" alt="hamburger" class="hamburger">
+          <img src="./images/icon-close.svg" alt="close" class="close">
+        </div>
+        <div class="navi-bar" id="mobile-navi">
+          <ul class="d-flex flex-column">
+            <li>
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#"  class="nav-link">Product</a>
+            </li>
+            <li>
+              <a href="#"  class="nav-link">About Us</a>
+            </li>
+            <li>
+              <a href="#"  class="nav-link"> Careers</a>
+            </li>
+            <li>
+              <a href="#"  class="nav-link"> Community</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <section class="hero-section">
       <div class="container d-sm-flex flex-row-reverse align-items-center">
@@ -154,16 +183,35 @@
     </div>
   </section>
 
-  <sectio class="last-section">
-    <div class="container">
-      <h2 class="final-title">Simplify how your team works today.</h2>
+  <section class="last-section ">
+    <div class="container manage d-sm-flex justify-content-between">
+      <h2 class="final-title">Simplify how your team <br> works today.</h2>
       <button class="btn final-btn">Get Started</button>
     </div>
   </section>
 
   <footer class="foot-section">
-    <div class="container">
-      <img src="" alt="" class="foot-logo">
+    <div class="container foot-box">
+      <div class="footbox-corner">
+        <img src="./images/logo.svg" alt="" class="foot-logo">
+        <div class="social-icons">
+          <a href="#" class="social-link">
+            <img src="./images/icon-facebook.svg" alt="fb">
+          </a>
+          <a href="#" class="social-link">
+            <img src="./images/icon-instagram.svg" alt="insta">
+          </a>
+          <a href="#" class="social-link">
+            <img src="./images/icon-pinterest.svg" alt="pin">
+          </a>
+          <a href="#" class="social-link">
+            <img src="./images/icon-youtube.svg" alt="tube">
+          </a>
+          <a href="#" class="social-link">
+            <img src="./images/icon-twitter.svg" alt="tweet">
+          </a>
+        </div>
+      </div>
       <div class="footer-navbar">
         <div class="foot-nav01">
           <p>Home</p>
@@ -185,7 +233,7 @@
   </footer>
 
   Copyright 2020. All Rights Reserved
-  <script src=""></script>
+  <script src="./app.js"></script>
   
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
