@@ -184,7 +184,7 @@ footer{
 
 
 .txt-info{
-    background: hsl(0, 5%, 85%);
+    background: hsl(0, 0%, 98%);
     height: 170px;
     width:350px;
     margin:0 17px;
@@ -363,8 +363,22 @@ footer{
         margin:0;
     }
 
+    .txt-info{
+        height:195px;
+        width:252px;
+    }
+
     .profile{
         display: none;
+    }
+
+    #profile-01{
+        display:block;
+    }
+
+    .profile-pic{
+        width:75px;
+        bottom:86%;
     }
 
     .arrow-back, .arrow-forward{
