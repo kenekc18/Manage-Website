@@ -141,6 +141,10 @@ main{
     padding: 20px 0;
 }
 
+.testimonials-area{
+    overflow-x: hidden;
+}
+
 .profile{
     position:relative;
     z-index:1;
