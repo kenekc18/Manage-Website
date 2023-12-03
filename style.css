@@ -276,6 +276,12 @@ footer{
     height: 50px;
 }
 
+@media(max-width:768px){
+    .navi-bar{
+        display:none;
+    }
+}
+
 
 @media(max-width:768px){
     .desk-nav{
