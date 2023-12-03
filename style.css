@@ -276,19 +276,6 @@ footer{
     height: 50px;
 }
 
-/* @media(max-width:768px){
-    .desk-nav{
-        display:none;
-    }
-
-    .close{
-        display: none;
-    }
-
-    #mobile-navi{
-        display:none;
-    }
-} */
 
 @media(max-width:768px){
     .desk-nav{
@@ -306,7 +293,6 @@ footer{
         width: 65%;
         left: 23%;
     }
-
 
     .hero-content{
         left:30%;
